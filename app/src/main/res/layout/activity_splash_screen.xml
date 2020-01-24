@@ -45,6 +45,12 @@
             android:layout_marginTop="0dp"
             android:layout_marginBottom="50dp"
             android:src="@drawable/logo_nombre" />
+        <com.felipecsl.gifimageview.library.GifImageView
+            android:id="@+id/gifImageView"
+            android:scaleType="fitCenter"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
 
     </LinearLayout>
 
