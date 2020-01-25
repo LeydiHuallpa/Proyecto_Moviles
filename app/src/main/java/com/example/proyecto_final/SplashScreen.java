@@ -18,7 +18,6 @@ import java.io.InputStream;
 
 
 public class SplashScreen extends Activity {
-    private final int DURACION_SPLASH = 5000;
 
     private GifImageView gifImageView;
 
@@ -47,10 +46,10 @@ public class SplashScreen extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                SplashScreen.this.startActivity(new Intent(SplashScreen.this,MainActivity.class));
+                SplashScreen.this.startActivity(new Intent(SplashScreen.this,Home.class));
                 SplashScreen.this.finish();
             }
-        },5000); // 3000 = 3seconds
+        },3000);
     }
 
 }

@@ -11,4 +11,11 @@
     <color name="color7">#beb2ec</color>
     <color name="color8">#06050c</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
 </resources>
