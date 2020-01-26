@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
+import com.example.proyecto_final.Login.Login;
 import com.felipecsl.gifimageview.library.GifImageView;
 
 import org.apache.commons.io.IOUtils;
@@ -46,7 +47,7 @@ public class SplashScreen extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                SplashScreen.this.startActivity(new Intent(SplashScreen.this,Home.class));
+                SplashScreen.this.startActivity(new Intent(SplashScreen.this, Login.class));
                 SplashScreen.this.finish();
             }
         },3000);
